@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+body{
+    background-color: #FFFFFF;
+}
+@font-face{
+    font-family: myfont;
+    src:url(fonts/Billabong.ttf);
+
+    }
+    @font-face{
+        font-family: myfont2;
+        src:url(fonts/fonnts.com-Serenity_Medium.otf);
+    
+        }
+    @font-face {
+        font-family: myfont3;
+        src: url(fonts/AwanZaman\ Light.ttf);
+    }
+    @font-face{
+        font-family: myfont4;
+        src:url(fonts/Proxima\ Nova\ Font.otf);
+    }
+    @font-face{
+        font-family: myfont5;
+        src:url(fonts/TextaBook.ttf);
+    }
+
+    h1{
+    font-family: 'myfont';
+    font-weight: 500;
+    position: relative;
+    left: 32%;
+    top:5%;
+    font-size:50px; 
+    color:#262626;
+    
+    }
+
+.layout{
+         background-color:#FFFFFF;
+         width:400px;
+         height:480px;
+         margin-left: 49%;
+         margin-top: 60px;
+         border: #DBDBDB solid 1px;
+         cursor: pointer;
+}
+
+.u1,.p1{
+    position: relative;
+    width: 320px;
+    height:45px;
+    left:11%;
+    top: 20px; 
+    background-color:#FFFFFF;
+    border: #DBDBDB solid 1px;
+}
+::placeholder{
+    color: #8E8E8E;
+    font-size: 13px;
+    position: relative;
+    left:5px;
+ }
+ .log{
+    background-color:#0095F6;
+    color: #FFFFFF;
+    width:320px;
+    height: 37px;
+    position: relative;
+    left:11%;
+    top:5%;
+    border:#0095F6 solid 2px;
+    border-radius:8px;
+ }
+ .l1{
+    color:  #DBDBDB;
+    height:5px;
+    width:120px;
+    border-bottom: 1px solid;
+    position: relative;
+    top:27px;
+    left:12%;   
+}
+.l2{
+    color:  #DBDBDB;
+    height:5px;
+    width:126px;
+    border-bottom: 1px solid;
+    position: relative;
+    top:21px;
+    left:234px;
+    
+}
+
+.or{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px bold;
+    color: #5a5959;
+    position: relative;
+    left:188px;
+    top:12px;
+}
+
+.layout2{
+    background-color:#FFFFFF;
+    width:400px;
+    height:90px;
+    margin-left: 49%;
+    margin-top:15px;
+    border: #DBDBDB solid 1px;
+    
+}
+.fb{
+    position: relative;
+    top:35px;
+    left:89px;
+    
+}
+.login-fb{
+    font-family: 'myfont2', sans-serif;
+    font-size: 19;
+    position: relative;
+    top:12px;
+    left:30%;
+}
+a {
+    color: #3c5da0;
+    text-decoration: none;
+    
+}
+.fb img{
+    border-radius: 1px;
+
+}
+.fp{
+    font-family: 'myfont4';
+    font-size: 14px;
+    color: #35528c;
+    position: relative;
+    top:9%;
+    left:29%;
+
+}
+.dont{
+    font-family: 'myfont5';
+    font-size: 17px;
+    color: #262626;
+    position: relative;
+    left:25%;
+    top:27%;
+
+}
+.dont2{
+    font-family: 'myfont5';
+    font-size:16px;
+    color: #262626;
+    position: relative;
+    left:40%;
+    top:35%;
+}
+.signup{
+    font-family: 'myfont4';
+    font-size:16px;
+    font-weight: bold;
+    color:#0095F6;
+    position: relative;
+    left:260px;
+    top:110px;
+
+    
+}
+.g1{
+    position: relative;
+    top:39%;
+    left:231px;
+}
+.g2{
+    position: relative;
+    top:143px;
+    left:60px;
+}
+.insta1{
+    position: relative;
+    bottom: 115%;
+    right:126%;
+    transition: opacity 0.5s (ease-in-out);
+}
+.insta2{
+    position: relative;
+    bottom:1160px;
+    right:350px;
+    transition: transform 0.5s(ease-in-out);
+    
+    
+}
+.insta2 img:hover{
+    transform: scale(1.2);
+    opacity: 0;
+}
